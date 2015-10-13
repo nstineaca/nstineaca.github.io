@@ -1,6 +1,37 @@
 body{ 
     font-family: 'Oswald', sans-serif;
 }
-p{
-    font-size: 16px;
+header nav {
+    float:right;
+}
+header h1 {
+    float:left;
+}
+.clear-fix:after { 
+    content: '';
+    display: block;
+    clear:both;
+}
+#one {background-image:url("../img/wine-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;   
+}
+#two h2{
+    text-align: center;
+}
+#three, #four, #five, #six, #seven, #eight, #nine {
+    text-align: center;
+}
+#seven .date{
+    float: right;
+}
+#eight .date{
+    float: right;
+}
+#nine {background-image:url("../img/wine-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
