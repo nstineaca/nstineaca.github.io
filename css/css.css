@@ -1,37 +1,108 @@
-body{ 
+body {
     font-family: 'Oswald', sans-serif;
+    margin: 0px 170px;
 }
+
 header nav {
-    float:right;
+    float: right;
 }
+
 header h1 {
-    float:left;
+    float: left;
 }
-.clear-fix:after { 
+
+.clear-fix:after {
     content: '';
     display: block;
-    clear:both;
+    clear: both;
 }
-#one {background-image:url("../img/wine-bg.jpg");
+
+#one {
+    background-image: url("../img/image-placeholder.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;   
+    text-align: center;
+    padding: 250px 0px 100px;
 }
-#two h2{
+
+#one h2 {
+    font-size: 2em;
+}
+
+#one p {
+    font-size: 1.5em;
+}
+
+#two {
+    margin: 20px;
+}
+
+#two img {
+    float: left;
+}
+
+#two h2 {
+    text-align: center;
+    padding-bottom: 30px
+}
+
+#two p {
+    padding-left: 290px;
+}
+
+#three,
+#four,
+#five,
+#six {
+    float: left;
+}
+
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine {
     text-align: center;
 }
-#three, #four, #five, #six, #seven, #eight, #nine {
-    text-align: center;
+
+#seven {
+    float: left;
+    margin: 0px 140px;
 }
-#seven .date{
+
+#eight {
+    float: left;
+}
+
+#seven .date {
     float: right;
 }
-#eight .date{
+
+#eight .date {
     float: right;
 }
-#nine {background-image:url("../img/wine-bg.jpg");
+
+#nine {
+    background-image: url("../img/image-placeholder.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
+    padding: 44px;
+    margin-bottom: 30px;
+}
+
+#container {
+    background-color: beige;
+    padding: 100px 0px 35px;
+}
+
+#container img {
+    width: 40%;
+}
+
+#invisible {
+    margin: 50px;
 }
