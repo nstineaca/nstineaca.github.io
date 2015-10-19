@@ -18,7 +18,7 @@ header h1 {
 }
 
 #one {
-    background-image: url("../img/image-placeholder.jpg");
+    background-image: url("../img/over-under_yale-wolf_nothing_2_u_1000.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,10 +28,12 @@ header h1 {
 
 #one h2 {
     font-size: 2em;
+    color: cornsilk
 }
 
 #one p {
     font-size: 1.5em;
+    color: cornsilk
 }
 
 #two {
@@ -40,6 +42,7 @@ header h1 {
 
 #two img {
     float: left;
+    width: 250px;
 }
 
 #two h2 {
@@ -56,6 +59,7 @@ header h1 {
 #five,
 #six {
     float: left;
+    width: 25%;
 }
 
 #three,
@@ -70,11 +74,19 @@ header h1 {
 
 #seven {
     float: left;
-    margin: 0px 140px;
+    width: 50%;
+}
+#seven img{
+    width: 50%;
+}
+#eight img{
+        width: 50%;
+    padding-top: 98px;
 }
 
 #eight {
     float: left;
+    width: 50%;
 }
 
 #seven .date {
@@ -83,6 +95,9 @@ header h1 {
 
 #eight .date {
     float: right;
+}
+#eight p{
+    word-wrap: break-word;
 }
 
 #nine {
