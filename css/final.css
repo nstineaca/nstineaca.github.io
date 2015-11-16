@@ -68,7 +68,7 @@ p {
 }
 
 #testimonial img {
-    width: 80%;
+    width: 100%;
     height: 336px;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -83,8 +83,10 @@ p {
 body {
     background-image: url(../img/a0016169bb1668db251f2b220344ec79.jpg);
 }
+#map h3{ 
+    background-color: white;
+}
 
 
 /*Table*/
 
-@media (min width: 769px) and (max-width: 992px)
