@@ -83,9 +83,10 @@ p {
 body {
     background-image: url(../img/a0016169bb1668db251f2b220344ec79.jpg);
 }
-#map h3{ 
+
+#map h3 {
     background-color: white;
 }
-
-
-
+@media (max-width: 754px) {
+    #mission img {
+        margin-left: 35%;}}
