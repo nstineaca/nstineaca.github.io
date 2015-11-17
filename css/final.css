@@ -87,6 +87,15 @@ body {
 #map h3 {
     background-color: white;
 }
-@media (max-width: 754px) {
+
+@media (max-width: 767px) {
     #mission img {
-        margin-left: 35%;}}
+        margin-left: 35%;
+        
+    }
+    #servicces img {
+        height: 320px;
+    }
+    #servicces h2{
+        color: coral;
+    }}
